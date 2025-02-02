@@ -29,12 +29,15 @@ The project utilizes the **UrbanSound8K** dataset, which consists of 8732 labele
 
 ## Installation & Usage
 ### Prerequisites
-- Python 3.x
+- Python 3.8
+- pandas
 - NumPy
 - Librosa
 - Matplotlib
+- seaborn
 - Scikit-learn
-- TensorFlow/PyTorch (for Neural Network classifier)
+- PyTorch (for Neural Network classifier)
+- resampy
 
 ### Installation
 Clone the repository and install dependencies:
