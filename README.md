@@ -11,7 +11,7 @@ This repository contains the code and analysis for the Speech Understanding Prog
 ## Key Features
 - **Windowing Techniques Implementation**: Hann, Hamming, and Rectangular window functions
 - **Spectrogram Generation**: Short-Time Fourier Transform (STFT)-based spectrogram analysis
-- **Urban Sound Classification**: Machine learning classifiers (Support Vector Machine and Neural Network) for urban sound classification
+- **Urban Sound Classification**: Machine learning classifiers (Convolutional Neural Network) for urban sound classification
 - **Spectrogram Analysis**: Comparative study of spectrograms across different music genres
 
 ## Dataset
@@ -47,12 +47,13 @@ pip install -r requirements.txt
 ### Running the Project
 To generate spectrograms and train classifiers, run:
 ```bash
-python main.py
+python SA_ASSIGNMENT1_QUES2_TASKA.py
+python Q2_TASK_B.py
 ```
 
 ## Results & Analysis
 - Spectrograms generated using different windowing techniques
-- Performance comparison of SVM vs. Neural Network classifiers
+- Performance of Convolutional Neural Network classifier
 - Insights into the impact of windowing on spectrogram quality and classification accuracy
 
 ## Contributing
